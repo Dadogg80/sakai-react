@@ -1,0 +1,5 @@
+{
+    "diffEditor.codeLens": true,
+    "editor.tabCompletion": "on",
+    "MutableAI.upsell": false
+}

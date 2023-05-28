@@ -8,6 +8,7 @@ const ChartDemo = () => {
     const [options, setOptions] = useState<Partial<ChartOptionsState>>({});
     const [data, setChartData] = useState<Partial<ChartDataState>>({});
     const { layoutConfig } = useContext(LayoutContext);
+    
 
     useEffect(() => {
         const documentStyle = getComputedStyle(document.documentElement);
